@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/logo.jpg">
+    <title>Catalogo</title>
+</head>
+<body>
+    <header>
+        <div id="contenedor">
+            <a href="index.html"><img src="imagenes/logo.jpg" alt="logo toyota" class="img-header"></a>
+            <h1>Luxor Motors</h1>
+            <nav>
+                <ul>
+                    <li><a href="formulario.html" class="no-deco">Contact Us</a></li>
+                    <li><a href="catalogo.html" class="no-deco">Catalogo</a></li>
+                    <li><a href="free-pass.html" class="no-deco">Free pass</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><em>Luxor Motors</em></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              <a class="nav-link" href="catalogo.html">Catalogo</a>
+              <a class="nav-link" href="formulario.html">Contact Us</a>
+              <a class="nav-link" href="#">References</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid bg-dark ">
+        <div class="row">
+            <div class="col-md-12 text-center"> 
+                <h2 class="text-light">Bienvenido a la seccion de catalogos</h2>
+                <p class="text-muted"><em>Demosle la bienvenida con nuestros ultimos modelos</em></p>
+            </div>
+        </div>
+      </div>
+
+      <!--Comienzo a mostrar los autos disponibles para la importacion-->
+      
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" id="catalogo">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/auto-importado-encabezado.jpg" class="d-block w-100" alt="Auto importado 1">
+          </div>
+          <div class="carousel-item">
+            <a href="producs.html"><img src="imagenes/auto-importado-encabezado-2.jpg" class="d-block w-100" alt="auto importado 2"></a>
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/auto-importado-3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+      <!--Comienzo a mostrar los catalogos con cards-->
+
+      <div class="container-fluid bg-info">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Haga click en las imagenes para ver esos autos</h3>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-fluid mt-3">
+        <div class="row">
+            <a href="producs.html" class="no-deco-2">
+                <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-encabezado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Nombre de auto</h5>
+                      <p class="card-text">Descripcion del auto</p>
+                      <a href="producs.html" class="btn btn-primary">Ver Modelo</a>
+                    </div>
+                </div>
+                </div>
+            </a>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-encabezado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-encabezado-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-encabezado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-encabezado-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="imagenes/auto-importado-encabezado.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Título de la tarjeta</h5>
+                      <p class="card-text">Un texto de ejemplo rápido para colocal cerca del título de la tarjeta y componer la mayor parte del contenido de la tarjeta.</p>
+                      <a href="#" class="btn btn-primary">Ir a algún lugar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!--Añadi una nueva seccion con informacion para la compra-->
+      <section>
+        <div class="container-fluid bg-warning">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h4>No esta el auto que desea en el catalogo?</h4>
+                    <p class="lead">No se preocupe, contactese con nosotros y se lo conseguiremos, con un 100% de efectividad. </p>
+                    <a href="formulario.html">
+                        <p>Haga click aqui</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <footer>
+        <img src="imagenes/logo.jpg" class="img-header" alt="logo-empresa">
+        <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate tempora numquam soluta laudantium sequi? Dolorem nostrum sint distinctio explicabo accusantium error tempora amet modi. Reprehenderit ab aspernatur atque adipisci rerum.</p>
+        <p id="volver"><a href="#" class="no-deco">Volver a Inicio</a></p>
+    </footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
