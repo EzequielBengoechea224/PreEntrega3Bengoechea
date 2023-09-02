@@ -1,3 +1,4 @@
+@import "animations";
 *{
     margin: 0;
     padding: 0;
@@ -138,20 +139,6 @@ div{
     }
 }
 
-/*a{
-    .no-deco{
-        text-decoration: none;
-        color: white;
-    }
-    .no-deco-2{
-        text-decoration: none;
-        color: black;
-        small{
-            text-decoration: none;
-            color: gray;
-        }
-    }
-}*/
 a.no-deco{
     text-decoration: none;
     color: white;
@@ -164,3 +151,36 @@ a.no-deco-2 small{
     text-decoration: none;
     color: gray;
 }
+
+//animacion para la div debajo del carrousel y la parte de catalogo en la pag "catalogos"
+
+
+
+.animated-bg{
+    animation-name: c-color-bg;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    h3.resaltar{
+        
+    }
+}
+
+
+
+
+
+//pruebas
+section#prueba{
+    height: 400px;
+    width: 100%;
+    filter: blur(30px);
+    border: red 2px solid;
+    animation-name: c-color-bg;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+

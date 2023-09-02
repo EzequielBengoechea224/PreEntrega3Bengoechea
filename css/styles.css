@@ -1,3 +1,14 @@
+@keyframes c-color-bg {
+  10% {
+    background-color: rgb(78, 78, 255);
+  }
+  50% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: rgb(4, 255, 0);
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -104,20 +115,6 @@ div #muesta__catalogo img.img-card {
   height: 30px;
 }
 
-/*a{
-    .no-deco{
-        text-decoration: none;
-        color: white;
-    }
-    .no-deco-2{
-        text-decoration: none;
-        color: black;
-        small{
-            text-decoration: none;
-            color: gray;
-        }
-    }
-}*/
 a.no-deco {
   text-decoration: none;
   color: white;
@@ -131,6 +128,25 @@ a.no-deco-2 {
 a.no-deco-2 small {
   text-decoration: none;
   color: gray;
+}
+
+.animated-bg {
+  animation-name: c-color-bg;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+section#prueba {
+  height: 400px;
+  width: 100%;
+  filter: blur(30px);
+  border: red 2px solid;
+  animation-name: c-color-bg;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-delay: 5s;
 }
 
 /*# sourceMappingURL=styles.css.map */
