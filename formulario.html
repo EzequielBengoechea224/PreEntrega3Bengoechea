@@ -2,11 +2,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="imagenes/logo.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Formulario de Contacto</title>
 </head>
 <body>
@@ -54,7 +55,7 @@
             </div>
         </section>
 
-        <div class="container">
+        <div class="container" data-aos="zoom-in-right">
             <div class="row">
                 <div class="col-md-2">
                 </div>
@@ -83,7 +84,7 @@
         <!--Seccion para informacion al usuario-->
 
         <section>
-            <div class="container-fluid bg-secondary">
+            <div class="container-fluid bg-secondary" data-aos="fade-up">
                 <div class="row text-center">
                     <div class="col-sm-12">
                         <h4>Nosotros nos contactaremos con usted!</h4>
@@ -94,7 +95,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer data-aos="fade-up">
         <img src="imagenes/logo.jpg" class="img-header" alt="logo-empresa">
         <p class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate tempora numquam soluta laudantium sequi? Dolorem nostrum sint distinctio explicabo accusantium error tempora amet modi. Reprehenderit ab aspernatur atque adipisci rerum.</p>
         <p id="volver"><a href="#" class="no-deco">Volver a Inicio</a></p>
@@ -102,6 +103,10 @@
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
 
