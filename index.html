@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="icon" href="imagenes/logo.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="imagenes/logo.jpg">
     <title>Luxor Motors</title>
 </head>
 <body>
@@ -58,7 +59,7 @@
         </div>
 
         <div class="container-fluid p-6">
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <div class="col-md-6 p-0">
                     <img src="imagenes/auto-importado-encabezado.jpg" class="round w-h-100" alt="imagen de BMW">
                 </div>
@@ -74,7 +75,7 @@
                 </div>
             </div>
             
-            <div class="row">
+            <div class="row" data-aos="zoom-in">
                 <div class="col-md-6 p-0">
                     <img src="imagenes/auto-importado-encabezado-2.jpg" class="w-h-100" alt="Kia">
                 </div>
@@ -91,11 +92,11 @@
             </div>
         </div>
 
-        <div class="container-fluid>
+        <div class="container-fluid bg-warning">
             <div class="row">
                 <div class="col-md-12 text-center">
                     <h3>Un poco de historia...</h3>
-                    <p>Comenzamos hace mas de 20 años con las importaciones de autos de lujo en Argentina!, tuvimos la potestad de aguantar todos los altibajos de la empresa en todos estos años y ahora estamos mejor que nunca! Importando la cantidad de <mark>100 autos por mes en promedio!</mark>.</p>
+                    <p>Comenzamos hace mas de 20 años con las importaciones de autos de lujo en Argentina!, tuvimos la potestad de aguantar todos los altibajos de la empresa en todos estos años y ahora estamos mejor que nunca! Importando la cantidad de <mark class="bg-warning">100 autos por mes en promedio!</mark>.</p>
                     <p>Si desea ver las referencias de nuestos clientes haga <a href="#">click aqui!</a></p>
                 </div>
             </div>
@@ -109,6 +110,10 @@
         <p id="volver"><a href="#" class="no-deco">Volver a Inicio</a></p>
     </footer>
 
-<script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
