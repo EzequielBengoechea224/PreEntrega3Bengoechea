@@ -7,3 +7,8 @@ o la segunda forma es haciendo click en la primera carta luego de la parte que d
 El resto de la pagina creo que es bastante entendible, o eso intente por lo menos jajaja
 
 Desde ya muchas gracias por corregir mi pagina. Saludos!!
+
+// tercer pre entrega
+	Hola buenas queria avisar que la pagina de pruebas la cree con la finalidad de probar mixin keyframes expand, 
+pero son cosas que no necesitaba para mi pagina, como mixin o expand, quiero que sepan que se usar esos comandos, solo 
+que no lo vi rentable en mi proyecto actual jaja.
