@@ -31,6 +31,10 @@ header h1 {
   grid-area: titulo;
   text-align: center;
   align-self: center;
+  transition: all 2s;
+}
+header h1:hover {
+  font-size: 50px;
 }
 header nav {
   padding-top: 10px;
@@ -147,6 +151,16 @@ section#prueba {
   animation-timing-function: linear;
   animation-duration: 2s;
   animation-delay: 5s;
+}
+
+@media (min-width: 1000px) {
+  .selector {
+    background-image: none;
+    transition: background-image 2s;
+  }
+  .selector:hover {
+    background-image: linear-gradient(to left, black, rgb(34, 34, 34));
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
