@@ -12,3 +12,6 @@ Desde ya muchas gracias por corregir mi pagina. Saludos!!
 	Hola buenas queria avisar que la pagina de pruebas la cree con la finalidad de probar mixin keyframes expand, 
 pero son cosas que no necesitaba para mi pagina, como mixin o expand, quiero que sepan que se usar esos comandos, solo 
 que no lo vi rentable en mi proyecto actual jaja.
+
+Por las dudas si posicionan el mouse sobre el h1 del header este se agrandara, pero solo en las pantallas de escritorio 
+o notebook (esta configurado asi, en el archivo scss se puede observar).
